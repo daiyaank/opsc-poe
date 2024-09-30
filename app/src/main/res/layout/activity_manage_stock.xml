@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ManageStockActivity">
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="771dp"
+        android:layout_height="1043dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/elite240of_create_a_background_image_for_an_app_focused_on_stoc_a74e9e3e_0331_488b_852f_e1e472f4eb52" />
+
+    <Button
+        android:id="@+id/buttonHome"
+        android:layout_width="102dp"
+        android:layout_height="59dp"
+        android:backgroundTint="#1A8CAB"
+        android:text="Home "
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText_name2"
+        app:layout_constraintVertical_bias="0.96"
+        app:strokeColor="@color/black"
+        app:strokeWidth="2dp" />
+
+    <View
+        android:id="@+id/view4"
+        android:layout_width="385dp"
+        android:layout_height="562dp"
+        android:alpha="0.8"
+        android:background="#BDBDBD"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button_add2"
+        android:layout_width="102dp"
+        android:layout_height="59dp"
+        android:backgroundTint="#1A8CAB"
+        android:text="Add"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText_name1"
+        app:layout_constraintVertical_bias="0.751"
+        app:strokeColor="@color/black"
+        app:strokeWidth="2dp" />
+
+    <EditText
+        android:id="@+id/editText_stock"
+        android:layout_width="371dp"
+        android:layout_height="52dp"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="Add Stock: "
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.742" />
+
+    <EditText
+        android:id="@+id/editText_number"
+        android:layout_width="371dp"
+        android:layout_height="52dp"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="SKU Number: "
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.665" />
+
+    <EditText
+        android:id="@+id/editText_name2"
+        android:layout_width="371dp"
+        android:layout_height="52dp"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="Stock Name:"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.589" />
+
+    <EditText
+        android:id="@+id/editText_amount"
+        android:layout_width="371dp"
+        android:layout_height="52dp"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="Amount: "
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.316" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="389dp"
+        android:layout_height="68dp"
+        android:text="Manage Stock "
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        android:textSize="35sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.481"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.025" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="212dp"
+        android:layout_height="37dp"
+        android:textColor="@color/black"
+        android:text="Add Stock:"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.138"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.146" />
+
+    <EditText
+        android:id="@+id/editText_name1"
+        android:layout_width="371dp"
+        android:layout_height="52dp"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="Stock Name:"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.223" />
+
+    <Button
+        android:id="@+id/button_add"
+        android:layout_width="102dp"
+        android:layout_height="59dp"
+        android:backgroundTint="#1A8CAB"
+        android:text="Add"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText_amount"
+        app:layout_constraintVertical_bias="0.0"
+        app:strokeColor="@color/black"
+        app:strokeWidth="2dp" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="331dp"
+        android:layout_height="70dp"
+        android:text="Add Inventory to Existing Item:"
+        android:textSize="25sp"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.499" />
+</androidx.constraintlayout.widget.ConstraintLayout>

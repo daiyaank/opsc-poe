@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ManageWarehouseActivity">
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="789dp"
+        android:layout_height="1065dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/elite240of_create_a_background_image_for_an_app_focused_on_stoc_38d16aa2_d7b9_4ae3_b4bb_09af54fdbd74" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="389dp"
+        android:layout_height="68dp"
+        android:text="Manage Warehouses "
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        android:textSize="35sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.481"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.025" />
+
+    <View
+        android:id="@+id/view6"
+        android:layout_width="385dp"
+        android:layout_height="562dp"
+        android:alpha="0.8"
+        android:background="#BDBDBD"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.615"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.502" />
+
+    <EditText
+        android:id="@+id/editText_quantity"
+        android:layout_width="347dp"
+        android:layout_height="49dp"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="Quantity: "
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.421"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.854" />
+
+    <EditText
+        android:id="@+id/editText_sku"
+        android:layout_width="347dp"
+        android:layout_height="49dp"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="SKU: "
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.406"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.782" />
+
+    <EditText
+        android:id="@+id/editText_itemName"
+        android:layout_width="347dp"
+        android:layout_height="49dp"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="Item Name: "
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.406"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.711" />
+
+    <EditText
+        android:id="@+id/editText_address2"
+        android:layout_width="347dp"
+        android:layout_height="49dp"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="Address:"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.406"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.639" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="291dp"
+        android:layout_height="47dp"
+        android:text="Send Item to Warehouse"
+        android:textSize="25sp"
+        android:textColor="#ED000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.51" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="204dp"
+        android:layout_height="52dp"
+        android:text="Add Warehouse"
+        android:textSize="25sp"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.125" />
+
+    <EditText
+        android:id="@+id/editText_warehouseName1"
+        android:layout_width="364dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="156dp"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="Warehouse Name: "
+        android:textColor="#ED000000"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toTopOf="@+id/editText_address1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.553"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <EditText
+        android:id="@+id/editText_address1"
+        android:layout_width="369dp"
+        android:layout_height="57dp"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="Address:"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toTopOf="@+id/editText_size"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.636"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.956" />
+
+    <EditText
+        android:id="@+id/editText_size"
+        android:layout_width="369dp"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="Size(sq^2):"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.619"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.37" />
+
+    <Button
+        android:id="@+id/button_add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#1A8CAB"
+        android:text="Add"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.44"
+        app:strokeColor="@color/black"
+        app:strokeWidth="2dp" />
+
+    <EditText
+        android:id="@+id/editText_warehouseName2"
+        android:layout_width="347dp"
+        android:layout_height="49dp"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="Warehouse Name:"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.406"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.568" />
+
+    <Button
+        android:id="@+id/button_send"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#1A8CAB"
+        android:text="Send "
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.293"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText_quantity"
+        app:layout_constraintVertical_bias="0.509"
+        app:strokeColor="@color/black"
+        app:strokeWidth="2dp" />
+
+    <Button
+        android:id="@+id/buttonHome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#1A8CAB"
+        android:text="Home "
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.778"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view6"
+        app:layout_constraintVertical_bias="0.305"
+        app:strokeColor="@color/black"
+        app:strokeWidth="2dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
