@@ -26,3 +26,6 @@ Manage Items
 
 ## User Interface
 Beautified with mascot and and home buttons for better interface.
+
+## Github, Readme and automated testing.
+GitHub readme created with Git Hub automated testing created as well in actions showing being run successfully 3 times.
