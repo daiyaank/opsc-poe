@@ -11,6 +11,8 @@ Included
 
 ## Creation of API
 The API was created use .NET with an SQL server for the database and deployed to Azure Web API
+You can view our deployed API Visually with swagger UI here:
+https://opscapi-cnbqbvc2g7e4hyec.canadacentral-01.azurewebsites.net/swagger/index.html
 
 ## Implementation of API
 Implemented on through Retrofit
