@@ -1,4 +1,4 @@
-### opsc-poe
+# opsc-poe
 
 ## App on Mobile Device
 The app has successfully run on a mobile device without errors or crashes.
