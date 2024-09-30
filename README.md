@@ -7,6 +7,7 @@ The app has successfully run on a mobile device without errors or crashes.
 Signle sign on has been implemented in the app for ease of use of the user.
 
 ## Settings Menu
+Included
 
 ## Creation of API
 The API was created use .NET with an SQL server for the database and deployed to Azure Web API
